@@ -1,0 +1,62 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define basic styles for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Set your desired background color */
+}
+
+header {
+    text-align: center;
+    background-color: #3498db; /* Set your desired header background color */
+    color: white;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.upload-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; /* Set your desired container background color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.upload-label {
+    display: block;
+    padding: 10px 20px;
+    background-color: #3498db; /* Set your desired button background color */
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 200px;
+}
+
+.image-preview {
+    margin-top: 20px;
+}
+
+#uploaded-image {
+    max-width: 100%;
+    max-height: 300px;
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #3498db; /* Set your desired footer background color */
+    color: white;
+}
